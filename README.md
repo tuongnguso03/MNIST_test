@@ -9,7 +9,7 @@ Run the tuning, training and testing:\
 \
 Run test on the saved model:\
 `python convNN.py test <path_to_model>`\
-By default, models are saved in `'./checkpoints/my_checkpoint'`
+By default, models are saved in `'./checkpoints//model.keras'`
 ## Results
 By accident, I only saved the parameters of the model :P
 | Hyperparameter    | Best value |
