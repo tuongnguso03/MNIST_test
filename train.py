@@ -15,7 +15,7 @@ def model_builder(hp):
     model.add(keras.layers.MaxPooling2D((2, 2), strides=2))
 
     #Dropout rate
-    hp_dropout_rate = hp.Choice('learning_rate', values=[0.1, 0.15, 0.2, 0.25])
+    hp_dropout_rate = hp.Choice('dropout_rate', values=[0.1, 0.15, 0.2, 0.25])
 
     model.add(keras.layers.Flatten())
     
